@@ -1,0 +1,44 @@
+<!--Slater's file -->
+<!--This is the main page where the game will start-->
+<!DOCTYPE html>
+    <html lang="en">
+    <link rel="stylesheet" href="style.css"> 
+<!--Added Orbitron font to the file, no copyright :) -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+   
+    <title>Planetarium Matching Game</title>
+
+    <body>
+            <button id="backBtn" class="back-btn">BACK</button>
+            <img id = "ufo" src="assets/alien-ufo.png">
+            <img id = "meteor" src="assets/meteor.png">
+        <div id = "game-options">  
+            <button id = "exit-button">Abort Mission</button>
+            <div id="hud">
+            <!---"THIS CAN BE ADDED AFTER IF WE ADVANCE INTO FUNCTIONALITY" <p>Score: <span id="score">0</span></p>-->
+                <p id="time-display"></p>
+                <p id="match-counter">Matches: 0</p>
+            </div>
+        </div>
+
+        <div id="game-instructions">
+           <p id="instruction-main">MATCH THE SPACE OBJECTS THAT BELONG TOGETHER TO SAVE THE ASTRONAUT</p>
+           <p id="start-instruction">START MISSION BY PRESSING THE LAUNCH BUTTON</p>
+            <button id="start-button">LAUNCH</button>
+
+            <div id="difficulty-options" style="display:none; margin-top: 20px;">
+                <p id="difficulty-label" style="font-size:28px; font-family:'Orbitron',sans-serif; color:#39FF14; margin-bottom:16px;">SELECT YOUR DIFFICULTY LEVEL</p>
+                <button id="btn-beginner" style="font-size:32px; font-family:'Orbitron',sans-serif; color:#39FF14; background-color:#0d101d; border-radius:20px; border:2px solid #39FF14; margin: 0 10px; padding: 8px 24px;">BEGINNER</button>
+                <button id="btn-expert"   style="font-size:32px; font-family:'Orbitron',sans-serif; color:#39FF14; background-color:#0d101d; border-radius:20px; border:2px solid #39FF14; margin: 0 10px; padding: 8px 24px;">EXPERT</button>
+            </div>
+        </div>
+        <div id="game-container">
+            <!-- Game elements will be dynamically added here -->
+        </div>
+
+    <script src="js/game.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/effects.js"></script>
+    </body>
+</html>
