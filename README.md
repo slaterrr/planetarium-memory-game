@@ -1,4 +1,4 @@
-# planetarium-memory-game
+# Planetarium Memory Game
 
   An interactive browser-based memory game developed during my internship with the P-Tech Planetarium.
   I served as the Project Lead, helping guide the development process while also contributing directly to the design and implementation of the game.
