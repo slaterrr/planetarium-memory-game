@@ -20,7 +20,7 @@
   - Organizing team meetings to discuss project guidelines and progress
   - Contributing to frontend design and game functionality
   - Debugging/troubleshooting issues
-  - Proper communication throughout development
+  - Maintaining clear communication across the team
   - Creating weekly progress reports for our team
 
 ## Features
@@ -30,6 +30,7 @@
   - Timed gameplay
   - Dynamic game logic using JavaScript
   - User-friendly controls, such as start/exit buttons
+  - Difficulty modes (Easy and Hard)
 
 ## Preview
 
@@ -48,4 +49,5 @@
   3. open main.html in your browser
   4. Enjoy!
 
-## Licensed under MIT license
+## License
+Licensed under MIT license
