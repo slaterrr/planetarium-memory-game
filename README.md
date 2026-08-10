@@ -33,7 +33,7 @@
 
 ## Preview
 
-!
+![Planetarium Memory Game](assets/game-preview.png)
 
 ## What I Learned
 
